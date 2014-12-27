@@ -1,0 +1,35 @@
+body{
+	width: 300px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#preview{
+	width: 171px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	position: relative;
+}
+
+#preview a{
+	position: absolute;
+	bottom: 5px;
+	left: 5px;
+	right: 5px;
+	display: none;
+}
+
+#file-info{
+	display: block;
+}
+
+input[type=file]{
+	position: absolute;
+	visibility: hidden;
+	width: 0;
+	z-index: -99999;
+}
+
+#file-save{
+	width: 171px;
+}
